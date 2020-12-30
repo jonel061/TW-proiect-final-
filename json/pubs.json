@@ -1,0 +1,50 @@
+[
+	{
+		"Name" : "Like Pub",
+		"Adress" : "Strada Lascăr Catargiu Nr.2, Timișoara",
+		"category" : "Pub",
+		"phone_number" : "+40 770 157 710",
+		"latitude" : "45.7501565",
+		"longitude" : "21.2435880"
+	},
+	{
+		"Name" : "Beraria 700",
+		"Adress" : "Coriolan Brediceanu",
+		"category" : "Pub",
+		"phone_number" : "+40 256 706 767",
+		"latitude" : "45.75643395",
+		"longitude" : "21.22377593864379"
+	},
+	{
+		"Name" : "The irish pub",
+		"Adress" : "str. Tarcului nr. 1,Timisoara",
+		"category" : "Pub",
+		"phone_number" : "+40 769 222 586",
+		"latitude" : "45.7572214",
+		"longitude" : "21.2288186"
+	},
+	{
+		"Name" : "The Note Pub",
+		"Adress" : "Bulevardul Mihai Eminescu, nr. 2",
+		"category" : "Pub",
+		"phone_number" : "+40 256 488 958",
+		"latitude" : "45.7514933",
+		"longitude" : "21.2261728"
+	},
+	{
+		"Name" : "La Capite",
+		"Adress" : "Vasile Parvan, nr. 9",
+		"category" : "Pub",
+		"phone_number" : "+40 720 400 333",
+		"latitude" : "45.7490729",
+		"longitude" : "21.232528"
+	},
+	{
+		"Name" : "Scart Loc Lejer",
+		"Adress" : "Arhitect Laszlo Szekely, nr. 1",
+		"category" : "Pub",
+		"phone_number" : "+40 751 892 340",
+		"latitude" : "45.7432666",
+		"longitude" : "21.22441792848435"
+	}
+]
