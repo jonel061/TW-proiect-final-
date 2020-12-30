@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> Timisoara</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="/static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Libraries CSS Files -->
+  <link href="./static/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="./static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="./static/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="./static/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="/templates/login.html">
+
+
+  <!-- Main Stylesheet File -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/styleTm.css') }}">
+
+</head>
+
+<body>
+
+
+
+<header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a style="color:blue" href="#intro" class="scrollto"> Timisoara</a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+            <li><p><a href="/map">Map</a></p></li>
+            <li class="menu-active"><a  style="color:blue" href="#intro">Home</a></li>
+            <li><a style="color:blue" href="#about">History</a></li>
+            <li><a  style="color:blue" href="#features">Transport</a></li>
+            <li><a style="color:blue" href="#pubs">Pubs</a></li>
+            <li><a style="color:blue" href="#museums">Museums</a></li>
+		    <li><a style="color:blue" href="#Faculty">Faculty</a></li>
+		    <li><a style="color:blue" href="#Shopping">Shopping</a></li>
+            <li class="menu-has-children"><a style="color:blue" href="#gallery">Parks</a>
+            <ul>
+                <li><a href="#roze">Roses Park</a></li>
+                <li ><a href="#botanic">Botanic Park</a></li>
+                <li><a href="#copii">Childrens Park</a></li>
+                <li><a href="#centru">Central Park</a></li>
+                <li><a href="#uzina">Water Plant</a></li>
+                <li><a href="#zoo">Zoo Garden</a></li>
+            </ul>
+          </li>
+             <li><p><a href="/logout">Logout</a></p></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+
+  <section id="intro">
+
+
+    <div class="intro-text">
+      <h2>Welcome to Timisoara</h2>
+      <p>This website can help you find the best places
+		to eat, drink,visit and have a good, relaxing time in Timisoara.</p>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+
+
+  </section><!-- #intro -->
+
+  <main id="main">
+  <a class="weatherwidget-io" href="https://forecast7.com/en/45d7521d21/timisoara/" data-label_1="TIMIȘOARA" data-label_2="WEATHER" data-theme="original" >TIMIȘOARA WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+
+    <!--==========================
+      About Us Section
+    ============================-->
+
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+    <section id="about" class="section-bg">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">History</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">
+            A short history of Timisoara<br>
+          </p>
+        </div>
+
+        <div class="row" style="display: flex; align-items: center;">
+          <div class="col-lg-6 about-img wow fadeInLeft">
+            <img src="/static/img/timisoara.jpg" alt="">
+          </div>
+
+          <div class="col-lg-6 content wow fadeInRight" style="font-size: 25px; text-lign: left; line-height: 1.8;">
+            Timișoara is the capital city of Timiș County, the 3rd largest city in Romania and the main social, economic and cultural centre in western Romania.<br>
+           Nicknamed the Little Vienna or the City of Flowers, Timișoara is considered the informal capital city of the historical Banat. The country's third most populous city is the economic hub of the region, with 319,279 inhabitants as of the 2011 census, home to almost a half-million inhabitants in the metropolitan area, as well as ca. 50,000 students from over 50 countries.<br>
+			In late contemporary times, Timișoara, like many other large cities in Romania, is a medical tourism service provider especially for dental care. It also offers excellent academic institutions, attracting thousands international students annually mainly at its medical school. As a technology hub, the city has one of the most powerful IT sectors in Romania alongside Bucharest, Cluj-Napoca, Iași, and Brașov, becoming a popular tech destination according to Financial Times. In 2013 Timișoara had the fastest internet download speed in the world.<br>
+            In December 1989 a popular uprising began in Timișoara against the Communist regime of Nicolae Ceauşescu.<br>
+            Timișoara was declared the first Free Town on 20 December 1989.<br>
+            In September 2016, Timișoara was selected as the European Capital of Culture for 2021.<br>
+          </div>
+        </div>
+
+      </div>
+
+<video width="800" controls>
+  <source src="/static/img/Timisoara, Romania _ Timișoara, România.mp4" type="video/mp4">
+
+</video>
+    </section><!-- #about -->
+
+    <!--==========================
+      Transport
+    ============================-->
+      <section id="features">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8 offset-lg-4">
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+              <h3 class="section-title">Public Transport</h3>
+              <span class="section-divider"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-5 features-img">
+          </div>
+
+          <div class="col-lg-8 col-md-7 ">
+
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon"><i class="fa fa-android" style="font-size:36px"></i></div>
+                <h4 class="title"><a href="">Android App</a></h4>
+                <p class="description">Press the link bellow if you want to use the Public Transport Timisoara App for your Android Device. you can find your way in the city much easier</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
+                <div class="icon"><i class="fa fa-apple" style="font-size:36px"></i></div>
+                <h4 class="title"><a href="">Ios App</a></h4>
+                <p class="description">The link bellow is for the Public Transport Timisoara App for Ios Devices. The app can make your visit much easier.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight data-wow-delay=0.2s">
+                <div class="btns"><a class="reload btn" href="https://play.google.com/store/apps/details?id=ro.mihai.tpt&hl=ro"><h3>Google Play Store</h3></a></div>
+
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
+				 <div class="btns"><a class="reload btn" href="https://itunes.apple.com/us/app/public-transport-timisoara/id1198165425?mt=8"><h3>IOS App Store</h3></a></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- #features -->
+
+    <!--==========================
+      Pubs Section
+    ============================-->
+    <section id="pubs" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Pubs</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">The List of some of the best pub's in Timisoara</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInLeft">
+              <img src="static/img/like pub.jpg" alt="" class="pubs-imgs  rounded-circle">
+              <ul>
+                <br>
+                <h4>Like Pub</h4>
+                <li><i class="fa fa-home"></i>Strada Lascăr Catargiu Nr.2, Timișoara</li>
+                <li><i class="fa fa-phone"></i>+40 770 157 710</li>
+                <a href="https://www.google.com/maps/place/Like+Pub+Timisoara/@45.7502198,21.2413178,17z/data=!3m1!4b1!4m5!3m4!1s0x47455d89b1c61c9d:0x4199ab4b3a2a0780!8m2!3d45.7502198!4d21.2435065"><button type="button" class="btn btn-primary">Location</button></a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInUp">
+              <img src="/static/img/beraria7.jpg" alt="" class="pubs-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Beraria 700</h4>
+                <li><i class="fa fa-home"></i>Coriolan Brediceanu</li>
+                <li><i class="fa fa-phone"></i>0256706767</li>
+                <a href="https://goo.gl/maps/6KiVrg1jz2y"><button type="button" class="btn btn-primary">Location</button></a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/The irish pub.jpg" alt="" class="pubs-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>The irish pub</h4>
+                <li><i class="fa fa-home"></i>str. Tarcului nr. 1,Timisoara</li>
+                <li><i class="fa fa-phone"></i>+40 769 222 586</li>
+                <a href="https://www.google.com/maps/place/Irish+Public+House/@45.746746,21.2401913,14z/data=!4m12!1m6!3m5!1s0x47455d89b1c61c9d:0x4199ab4b3a2a0780!2sLike+Pub+Timisoara!8m2!3d45.7502198!4d21.2435065!3m4!1s0x0:0x22a7049ce5420c36!8m2!3d45.7569226!4d21.2305105"><button type="button" class="btn btn-primary">Location</button></a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/notepub.jpg" alt="" class="pubs-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>The Note Pub</h4>
+                <li><i class="fa fa-home"></i>Bulevardul Mihai Eminescu, nr. 2</li>
+                <li><i class="fa fa-phone"></i>0256488958 </li>
+                <a href="https://goo.gl/maps/jT6QmJzXTnD2"><button type="button" class="btn btn-primary">Location</button></a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/Lacapite.jpg" alt="" class="pubs-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>La Capite</h4>
+                <li><i class="fa fa-home"></i>Vasile Parvan, nr. 9</li>
+                <li><i class="fa fa-phone"></i>0720400333</li>
+                <a href="https://goo.gl/maps/GdVd4j1Y7Q42"><button type="button" class="btn btn-primary">Location</button></a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/scart.jpg" alt="" class="pubs-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Scart Loc Lejer</h4>
+                <li><i class="fa fa-home"></i> Arhitect Laszlo Szekely, nr. 1</li>
+                <li><i class="fa fa-phone"></i>0751892340 </li>
+                <a href="https://goo.gl/maps/7xhTRHnvsG12"><button type="button" class="btn btn-primary">Location</button></a>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #pubs -->
+ <!--==========================
+      Restaurant Section
+    ============================-->
+    <section id="restaurant" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Restaurant</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">The List of some of the best restaurant in Timisoara</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInLeft">
+              <img src="/static/img/logo_dinar.png" alt="" class="pubs-imgs  rounded-circle">
+              <ul>
+                <br>
+                <h4>Restaurant Dinar</h4>
+                <li><i class="fa fa-home"></i>Strada Barbu Iscovescu nr. 2, Timișoara, România</li>
+                <li><i class="fa fa-phone"></i>+40 728 116 230</li>
+                <a href="https://www.google.com/maps/place/Restaurant+Dinar/@45.7518341,21.2358954,15z/data=!4m5!3m4!1s0x47455d87fceb592f:0x8c13fcb393af4189!8m2!3d45.7521746!4d21.2404266?hl=ro"><button type="button" class="btn btn-primary">Location</button></a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInUp">
+              <img src="/static/img/logo-yugoslavia.jpg" alt="" class="pubs-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Restaurant Yugoslavia</h4>
+                <li><i class="fa fa-home"></i>Strada Vadul Calugareni 1, Timișoara 300425, România</li>
+                <li><i class="fa fa-phone"></i>+40737394794</li>
+                <a href="https://www.google.com/maps/place/Restaurant+Yugoslavia/@45.73665,21.2246945,15z/data=!4m5!3m4!1s0x0:0xa96370e06a5d6130!8m2!3d45.7397219!4d21.221112?hl=ro><button type=button class=btn btn-primary">Location</a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/sabres.png" alt="" class="pubs-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Restaurant Sabres</h4>
+                <li><i class="fa fa-home"></i>Strada Craiova nr. 1, Timișoara 300587, România</li>
+                <li><i class="fa fa-phone"></i>+40 356 430001</li>
+                <a href="https://www.google.com/maps/place/Restaurant+Sabres/@45.7541274,21.184475,13z/data=!4m8!1m2!2m1!1srestaurant+timisoara!3m4!1s0x47455d91c338207b:0xca0cd6405ba3fa16!8m2!3d45.742456!4d21.238342?hl=ro"><button type="button" class="btn btn-primary">Location</button></a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/merlot.jpg" alt="" class="pubs-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Restaurant Merlot</h4>
+                <li><i class="fa fa-home"></i>Splaiul Nistrului 1, Timișoara, România</li>
+                <li><i class="fa fa-phone"></i>+40 356 177 247 </li>
+                <a href="https://www.google.com/maps/place/Restaurant+Merlot/@45.7541274,21.184475,13z/data=!4m8!1m2!2m1!1srestaurant+timisoara!3m4!1s0x0:0xfea9d0bd904302bd!8m2!3d45.7564528!4d21.2420654?hl=ro"><button type="button" class="btn btn-primary">Location</button></a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/sky.jpg" alt="" class="pubs-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Sky Restaurant</h4>
+                <li><i class="fa fa-home"></i>Strada Coriolan Brediceanu 10, Timișoara 300011, România</li>
+                <li><i class="fa fa-phone"></i>+40 770 422 816</li>
+                <a href="https://www.google.com/maps/place/Sky+Restaurant/@45.7563608,21.2217859,14z/data=!4m8!1m2!2m1!1srestaurant+timisoara!3m4!1s0x0:0xe851088c8884c8fc!8m2!3d45.7567672!4d21.2218577?hl=ro"><button type="button" class="btn btn-primary">Location</button></a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/pescada.png" alt="" class="pubs-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Pescada</h4>
+                <li><i class="fa fa-home"></i> Calea Sever Bocu 74, Timișoara 300254, România</li>
+                <li><i class="fa fa-phone"></i>+40 770 221 161 </li>
+                <a href="https://www.google.com/maps/place/Pescada/@45.7757213,21.2329192,14z/data=!4m8!1m2!2m1!1srestaurant+timisoara!3m4!1s0x0:0xeec0efb508f7fcd7!8m2!3d45.7756427!4d21.2333?hl=ro"><button type="button" class="btn btn-primary">Location</button></a>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #Restaurant -->
+
+    <!--==========================
+      Museums Section
+    ============================-->
+    <section id="museums" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Museums</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">A list of the museums in Timisoara</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInLeft">
+              <img src="/static/img/muzeuarta.jpg" alt="" class="museums-imgs  rounded-circle">
+              <ul>
+                <br>
+                <h4>Muzeul de Arta</h4>
+                <li><i class="fa fa-home"></i>Piata Unirii , nr.1</li>
+                <li><i class="fa fa-phone"></i>0256491592</li>
+                <div class="btn-group">
+					             <a href="https://goo.gl/maps/69gzvpjAvZK2"><button type="button" class="btn btn-primary"> <span class="glyphicon glyphicon-map-marker"></span> Location</button></a>
+					             <a href="http://www.muzeuldeartatm.ro/"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-globe"></span> Website</button></a>
+
+			           </div>
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInUp">
+              <img src="/static/img/banatului.jpg" alt="" class="museums-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Muzeul Banatului</h4>
+                <li><i class="fa fa-home"></i> Strada Martin Luther , nr.4 </li>
+                <li><i class="fa fa-phone"></i>0256491339</li>
+                <div class="btn-group">
+                  <a href="https://goo.gl/maps/6GJXffGYwjm"><button type="button" class="btn btn-primary"> <span class="glyphicon glyphicon-map-marker"></span> Location</button></a>
+                  <a href="https://mnab.ro/"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-globe"></span> Website</button></a>
+                  </div>
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/muzeusat.jpg" alt="" class="museums-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Muzeul Satului</h4>
+                <li><i class="fa fa-home"></i>Avram Imbroane, nr 1</li>
+                <li><i class="fa fa-phone"></i>0256225588</li>
+                <div class="btn-group">
+                  <a href="https://goo.gl/maps/rDe1XXnT5132"><button type="button" class="btn btn-primary"> <span class="glyphicon glyphicon-map-marker"></span> Location</button></a>
+        				  <a href="http://muzeulsatuluibanatean.ro/"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-globe"></span> Website</button></a>
+                </div>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/comunist.jpg" alt="" class="museums-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Muzeul Communist</h4>
+                <li><i class="fa fa-home"></i>Arhitect Laszlo Szekely,nr 1</li>
+                <li><i class="fa fa-phone"></i>0751892340</li>
+                <div class="btn-group">
+					             <a href="https://goo.gl/maps/rDe1XXnT5132"><button type="button" class="btn btn-primary"> <span class="glyphicon glyphicon-map-marker"></span> Location</button></a>
+					             <a href="http://muzeulsatuluibanatean.ro/"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-globe"></span> Website</button></a>
+			          </div>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/tyro.jpg" alt="" class="museums-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Tyropassage</h4>
+                <li><i class="fa fa-home"></i>Pasaj, Podul Tinereţii</li>
+                <li><i class="fa fa-phone"></i>No Number Available</li>
+                <div class="btn-group">
+					           <a href="https://goo.gl/maps/T9jzdkeAAY82"><button type="button" class="btn btn-primary"> <span class="glyphicon glyphicon-map-marker"></span> Location</button></a>
+					           <a href="http://www.typopassage.ro/"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-globe"></span> Website</button></a>
+
+			          </div>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <img src="/static/img/muztrans.jpg" alt="" class="museums-imgs rounded-circle">
+              <ul>
+                <br>
+                <h4>Transport Museum</h4>
+                <li><i class="fa fa-home"></i>Take Ionescu nr.56</li>
+                <li><i class="fa fa-phone"></i>0256277710</li>
+                <div class="btn-group">
+                    <a href="https://goo.gl/maps/KK1BcAhKFuq"><button type="button" class="btn btn-primary"> <span class="glyphicon glyphicon-map-marker"></span> Location</button></a>
+                    <a href="http://www.ratt.ro/muzeuCM.html"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-globe"></span> Website</button></a>
+                  </div>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #pubs -->
+
+
+
+
+    <!--==========================
+      Gallery Section
+    ============================-->
+    <section id="gallery">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">Parks</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">Here you can see some photos of the parks in Timisoara</p>
+        </div>
+        <section id="roze">
+        <div style="text-align: center;"><div class="col-lg-4 col-md-6">
+          <div class="gallery-item wow fadeInUp">
+            <a href="/static/img/gallery/rozecol.jpg" class="gallery-popup">
+              <img src="/static/img/gallery/rozecol.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        </div>
+        <div style="text-align: center;"><hr>
+        <div class="container-fluid">
+        <div style="text-align: center;"> <h1>Roses Park</h1>
+        <p class="lead">Roses Park is a very beautiful park placed on the shore of the river Bega.<br>
+		        The park in known for the beautfull flowers there and the white wooden arches <br>
+		        The park also haves a concert hall, where most of the time organized concerts can have place.</p>
+        <p><a href="https://goo.gl/maps/UxGUF1F2dyv"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-map-marker"></span> Location</button></a> </p>
+
+        </div>
+        </div>
+        </div></section>
+
+      <section id="botanic">
+        <div style="text-align: center;"><div class="col-lg-4 col-md-6">
+          <div class="gallery-item wow fadeInUp">
+            <a href="/static/img/gallery/botcol.jpg" class="gallery-popup">
+              <img src="/static/img/gallery/botcol.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        </div>
+        <div style="text-align: center;"><hr>
+        <div class="container-fluid">
+        <div style="text-align: center;"> <h1>Botanic Park</h1>
+        <p class="lead">
+          Situated near the city center, the Botanic Park allows you to<br>
+  		rest from urban part of Timisoara, breathe the clean air and talk a relaxing
+  		stroll among the woods.<br>
+  		  </p>
+        <p><a href="https://goo.gl/maps/Z7wK5njJRt62"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-map-marker"></span> Location</button></a> </p>
+        </div>
+        </div>
+        </div></section>
+
+      <section id="copii">
+        <div style="text-align: center;"><div class="col-lg-4 col-md-6">
+          <div class="gallery-item wow fadeInUp">
+            <a href="/static/img/gallery/copilcol.jpg" class="gallery-popup">
+              <img src="/static/img/gallery/copilcol.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+        <div style="text-align: center;"><hr>
+        <div class="container-fluid">
+     <div style="text-align: center;"> <h1>Childrens Park</h1>
+      <p class="lead">This is a big  free playground, There are plenty of attractions
+		      for the kids+adults<br> (beautiful, modern slides, swings,
+		        boats, obstacles, small wooden huts, fountain and many more).There are many trees so
+		        you can hide in the shade if it's a hot day and its placed next to Roses Park.</p>
+    <p><a href="https://goo.gl/maps/oQRMH5TQWsF2"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-map-marker"></span> Location</button></a> </p>
+     </div>
+        </div></div></section>
+
+        <section id="centru">
+          <div style="text-align: center;"><div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="/static/img/gallery/centrcol.jpg" class="gallery-popup">
+                <img src="/static/img/gallery/centrcol.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      <div style="text-align: center;"><hr>
+        <div class="container-fluid">
+          <div style="text-align: center;"> <h1>Central Park</h1>
+            <p class="lead">
+              Central Park is one of the oldest parks in Timisoara, <br>
+			        dating from 1880, it haves a lot of monuments of a lot of important personalities. <br>
+			        The bigest one is the Romanian Soldier monument.</p>
+  <p><a href="https://goo.gl/maps/bYXKeMu7NsN2"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-map-marker"></span> Location</button></a> </p>
+          </div>
+        </div></div></section>
+
+        <section id="uzina">
+          <div style="text-align: center;"><div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="/static/img/gallery/uzicol.jpg" class="gallery-popup">
+                <img src="/static/img/gallery/uzicol.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+          <div style="text-align: center;"><hr>
+          <div class="container-fluid">
+       <div style="text-align: center;"> <h1>Water Plant Park</h1>
+        <p class="lead">
+          Water Plant's Park is placed right next to Timisoara's Water Plant,
+          a beautifull old building,<br> the park is very big, on both sides of the Bega river,
+          with little playgrounds, banches, lots of trees and tables.</p>
+      <p><a href="https://goo.gl/maps/vHQYuCUn5282"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-map-marker"></span> Location</button></a> </p>
+       </div>
+          </div></div></section>
+
+        <section id="zoo">
+          <div style="text-align: center;"><div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="/static/img/gallery/zoocol.jpg" class="gallery-popup">
+                <img src="/static/img/gallery/zoocol.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center;"><hr>
+          <div class="container-fluid">
+       <div style="text-align: center;"> <h1>Zoo Garden</h1>
+         <p class="lead">
+		Placed in the Green Forest in Timsioara the Zoo is widely spread <br>
+		with a lot of diverse species of animals.<br>
+		Cared pathways , places to stop and rest, some stops where you can even see closely the animals .
+		</p>
+		<p><a href="https://goo.gl/maps/wbUCRLby1Zy"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-map-marker"></span> Location</button></a> </p>
+       </div>
+          </div></div></section>
+        </div>
+    </section><!-- #gallery -->
+	 <!--==========================
+    Faculty Section
+    ============================-->
+    <section id="Faculty" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Faculty</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">A list of the Faculty in Timisoara</p>
+        </div>
+
+        <div class="row">
+
+
+  <div class="row" style="display: flex; align-items: center;">
+          <div class="col-lg-6 about-img wow fadeInLeft">
+		   <img src="/static/img/vest university.jpg" width="275" alt="">
+		    <img src="/static/img/Universitatea-Politehnica-Timisoara-Foto-Eye-in-the-Sky.jpg" width="500" alt="">
+			 <img src="/static/img/fundal-UMFT-728x336.jpg" width="500" alt="">
+          </div>
+<div class="col-lg-6 content wow fadeInRight" style="font-size: 25px; text-lign: left; line-height: 1.8;">
+		  On the first photo is the Universty The West University<br>
+          The West University of Timișoara (Romanian: Universitatea de Vest din Timișoara; abbreviated UVT) is a university located in Timișoara, Romania.<br>
+		  Established in 1962, it is organized in 11 faculties.<br>
+		  Classified as a research and education university by the Ministry of Education, it is one of the five members of the Universitaria Consortium (the group of elite Romanian universities).<br>
+		  The West University is an institution of the National System of Research, Development and Innovation in its capacity as an accredited higher education institution.<br>
+		  <a href="https://www.google.com/maps/place/Universitatea+de+Vest+din+Timi%C8%99oara/@45.7471232,21.2294265,17z/data=!4m12!1m6!3m5!1s0x47455d84610655bf:0xfd169ff24d29f192!2sUniversitatea+de+Vest+din+Timi%C8%99oara!8m2!3d45.7471195!4d21.2316152!3m4!1s0x47455d84610655bf:0xfd169ff24d29f192!8m2!3d45.7471195!4d21.2316152"><button type="button" class="btn btn-primary">Location</button></a>
+		 <br>
+		 <br>
+		 On the second photo is the Politehnica University<br>
+		 Politehnica University of Timișoara (Romanian: Universitatea Politehnica Timișoara) is a public university founded on 11 November 1920. Located in Timișoara, Romania, it is one of the largest technical universities in Central and Eastern Europe.<br>
+The university's research and scientific training is based on the strategy of promoting multidisciplinary research and the priority given to new technology.<br>
+ In 2011, Politehnica University of Timișoara was classified as an advanced research and education university by the Ministry of Education, thus becoming the only university in Western part of Romania categorized among the best 12 university in the country.<br>
+ The University is a member of the Romanian Alliance of Technical Universities (ARUT).<br>
+ <a href="https://www.google.com/maps/place/Universitatea+Politehnica+Timisoara/@45.753643,21.2229728,17z/data=!3m1!4b1!4m5!3m4!1s0x47455d82fd425403:0xebeab37fb452ca7a!8m2!3d45.7536393!4d21.2251614"><button type="button" class="btn btn-primary">Location</button></a>
+ <br><br>
+ On the third photo is  The Victor Babeș University of Medicine and Pharmacy<br>
+ The Victor Babeș University of Medicine and Pharmacy, Timișoara (Romanian: Universitatea de Medicină și Farmacie "Victor Babeș", or UMF Timișoara) is located in Timișoara, Romania.<br>
+ It was named in honor of the scientist Victor Babeș.<br>
+  <a href="https://www.google.com/maps/place/Universitatea+de+Medicin%C4%83+%C8%99i+Farmacie+Victor+Babe%C8%99/@45.7572114,21.234338,17z/data=!3m1!4b1!4m5!3m4!1s0x4745677c271fabc9:0x1d1eac603ba771ca!8m2!3d45.7572077!4d21.2365267"><button type="button" class="btn btn-primary">Location</button></a>
+		  </div>
+		   <!--==========================
+    Shopping  Section
+    ============================-->
+    <section id="Shopping" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Shopping</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">A list of the Shopping center in Timisoara</p>
+        </div>
+		<div class="row">
+
+
+  <div class="row" style="display: flex; align-items: center;">
+          <div class="col-lg-6 about-img wow fadeInLeft">
+		   <img src="/static/img/Iulius-Mall-si-Openville-Timisoara.jpg" width="500" alt="700">
+
+   </div>
+   <div class="col-lg-6 content wow fadeInRight" style="font-size: 25px; text-lign: left; line-height: 1.8;">
+Iulius Town Timișoara  (formerly Iulius Mall) is the name of the mixed-use development, edge city, and shopping mall located in Timișoara, Romania.<br>
+ At the time of its completion it was the first shopping mall in Timișoara.<br>
+ The mall has: 4,070 parking spaces, 450 stores,
+ including a 11,500 sqm Auchan hypermarket,
+ a twelve-screen Cinema City cinema,
+ a food court, full-service restaurants, bars and cafés,
+ a semi-olympic swimming pool & largest fitness club in Romania (over 3,400 sqm),
+ a climbing wall & ice rink - during the winter season (from November to March),
+ bowling & billiard hall, casino, Kids Land & Play Zone for children, banks,
+ police offices (vehicle registration, driving licence examinations and passport service), and a post office.
+        <div>
+<a href="/static/img/Map_tour.pdf" download rel="noopener noreferrer" target="_blank">
+   Download a brochure
+</a>
+<br>
+</div>
+ <br>
+   <a href="https://www.google.com/maps/place/Iulius+Town/@45.7662749,21.226682,17z/data=!3m1!4b1!4m5!3m4!1s0x474567c28251367f:0xdad4d0d2dc253876!8m2!3d45.7662712!4d21.2288706"><button type="button" class="btn btn-primary">Location</button></a>
+ </div>
+<iframe src="http://127.0.0.1:5000/map" width="1200" height="650" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+ <!--==========================
+   Population
+  ============================-->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+		['Task', 'Procent of population'],
+          ['Romanian',19],
+          ['German',4],
+          ['Magyar',4],
+          ['Serbian',4],
+          ['Hebrew',2]
+        ]);
+
+        var options = {
+          title: 'Population',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script><br><br>
+	<div id="piechart_3d" style="width: 1200px; height: 500px;"></div>
+
+
+<div class="col-lg-6 content wow fadeInRight" style="font-size: 25px; text-align: right; line-height: 1.8;">
+</div>
+  </div>
+        </div>
+      </div>
+    </section>
+  </div>
+        </div>
+      </div>
+    </section>s=
+  </main>
+</body><br><br><br><br><br><br><br><br><br><br>
+
+  <!--
+Investigate </br>
+ <form>
+  <table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text"></td>
+   </tr>
+   <tr>
+    <td>Last Name:</td>
+     <td><input type="text"></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="Gender"> Male
+     <input type="radio" name="Gender"> Female
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email"></td>
+   </tr>
+   <tr>
+    <td>Nationality :</td>
+    <td>
+     <select>
+      <option>Serbian</option>
+      <option>Romanian</option>
+      <option>German</option>
+      <option>Magyar</option>
+      <option>Hebrew</option>
+      <option>Turkish</option>
+     </select>
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+</div> -->
+
+<!
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row" >
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+          </div>
+        </div>
+        <div class="col-lg-6 ">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#intro" class="scrollto">Home</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  
+
+  <!-- JavaScript Libraries -->
+  <script src="./static/lib/jquery/jquery.min.js"></script>
+  <script src="./lib/jquery/jquery-migrate.min.js"></script>
+  <script src="./static/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./lib/easing/easing.min.js"></script>
+  <script src=./"lib/wow/wow.min.js"></script>
+  <script src="./lib/superfish/hoverIntent.js"></script>
+  <script src=./"lib/superfish/superfish.min.js"></script>
+  <script src="./static/lib/magnific-popup/magnific-popup.min.js"></script>
+
+
+
+
+  <!-- Template Main Javascript File -->
+  <script src="/static/js/main.js"></script>
+  
+  
+</html>
